@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: grey;
+  background-color:white;
   margin: 0;
   padding: 0;
 }
@@ -13,7 +13,9 @@ h5,
 h6 {
   font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
 }
-
+p {
+font-weight: 20px;
+}
 .container {
   max-width: 1080px;
   margin: 0 auto;
@@ -68,4 +70,8 @@ form button {
 
 .site-footer {
   padding: 2rem 0;
+}
+.list {
+  display: flex;
+  flex-direction: column;
 }
