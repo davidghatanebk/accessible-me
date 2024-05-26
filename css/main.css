@@ -72,6 +72,7 @@ form button {
   padding: 2rem 0;
 }
 .list {
+  font-size: 25px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
